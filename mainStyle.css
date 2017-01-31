@@ -1,0 +1,137 @@
+body{
+  margin: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+main{
+  width: 99.89vw;
+  height: 99.8vh;
+  background-image: url('./img/main-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-cont-one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 99.89vw;
+  height: 70%;
+}
+.main-cont-two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-end;
+  width: 99.89vw;
+  height: 30%;
+}
+h2{
+  font-family: 'Bitter', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+p{
+  font-family: 'Bitter', sans-serif;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  letter-spacing: 5px;
+}
+.arrow{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 100%;
+  background: white;
+  margin-bottom: 10px;
+}
+.line{
+  background-color: gray;
+  height: 50px;
+  width: 2px;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid gray;
+}
+header{
+  /*height: 100px;
+  width: 87vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;*/
+  display: none;
+}
+span{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+i{
+  color: white;
+  font-size: 48px;
+}
+.header-cont-one{
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-cont-two{
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icon-one{
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+}
+.icon-two{
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10%;
+}
+img{
+  max-width: 100%;
+  cursor: pointer;
+}
+@media(max-width: 700px) {
+    .nav-wrapper{
+      display: none;
+    }
+    header{
+      height: 100px;
+      width: 100vw;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+    }
+}

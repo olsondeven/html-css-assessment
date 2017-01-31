@@ -1,0 +1,21 @@
+.nav-wrapper{
+  height: 100px;
+  width: 99.89vw;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  /*background-image: url('./img/main-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+h1{
+  font-family: 'Bitter', sans-serif;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+    .nav-wrapper{
+      display: none;
+    }
+}
