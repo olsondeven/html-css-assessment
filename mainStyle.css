@@ -4,7 +4,7 @@ body{
   position: relative;
 }
 main{
-  width: 99.89vw;
+  width: 100vw;
   height: 99.8vh;
   background-image: url('./img/main-bg.jpeg');
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  width: 99.89vw;
+  width: 100vw;
   height: 70%;
 }
 .main-cont-two{
@@ -23,7 +23,7 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content:flex-end;
-  width: 99.89vw;
+  width: 100vw;
   height: 30%;
 }
 h2{
@@ -67,11 +67,6 @@ p{
   border-top: 10px solid gray;
 }
 header{
-  /*height: 100px;
-  width: 87vw;
-  display: flex;
-  justify-content: space-between;
-  position: absolute;*/
   display: none;
 }
 span{
